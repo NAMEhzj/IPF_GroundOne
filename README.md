@@ -1,5 +1,8 @@
 # IPF_GroundOne
-a more general version of Interval IPF (see IPF_GroundZero by Eva Richter) that is also a bit tidier
+created by Eva Richter, Matti Richter 
+May 2018
+
+Repository contains a more general and finished version of Interval IPF (see IPF_GroundZero by Eva Richter)
 
 this repository contains:
   - an interval type and operations on it (in folder Interval)
