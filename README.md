@@ -2,9 +2,9 @@
 created by Eva Richter, Matti Richter 
 May 2018
 
-Repository contains a more general and finished version of Interval IPF (see IPF_GroundZero by Eva Richter)
+This repository contains a more general and finished version of Interval IPF (see IPF_GroundZero by Eva Richter)
 
-this repository contains:
+contents:
   - an interval type and operations on it (in folder Interval)
   - the alrorithm IPF for any number of dimensions over an abstract type as instance
       of a typeclass (in IPFCore)
