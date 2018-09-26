@@ -13,7 +13,7 @@
 > randomEntry (Nil , Nil)     baseGen = (Nil, baseGen)
 > randomEntry ((x:#v),(y:#w)) baseGen = ((newNum:#oldNums), newGen) where
 > 											(oldNums, oldGen) = randomEntry (v, w) baseGen
->											(newNum, newGen)  = randomR (x, y) oldGen  		
+>										  	(newNum, newGen)  = randomR (x, y) oldGen  		
 >
 >
 >
@@ -21,7 +21,7 @@
 > randomEntries bounds baseGen Z     = ([], baseGen)
 > randomEntries bounds baseGen (S k) = (newEntrty : oldEntries, newGen) where
 >                                        (oldEntries, oldGen) = randomEntries bounds baseGen k
->                                   	 (newEntrty, newGen)  = randomEntry bounds oldGen
+>                                   	   (newEntrty, newGen)  = randomEntry bounds oldGen
 >
 > put :: Int -> Array (Vect n Int) Int -> Vect n Int -> Array (Vect n Int) Int
 > put x mx v = array (bounds mx) newAssocs where
