@@ -2,7 +2,8 @@
 created by Eva Richter, Matti Richter 
 May 2018
 
-This repository contains a more general and finished version of Interval IPF (see IPF_GroundZero by Eva Richter)
+This repository contains a more general and finished version of Interval IPF (Iterative proportional fitting)
+ (see https://github.com/EvaRichter/IPF_GroundZero)
 
 contents:
   - an interval type and operations on it (in folder Interval)
