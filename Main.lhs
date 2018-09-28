@@ -16,6 +16,8 @@
 > import SampleGen
 >
 >
+> -- here are some examples for the inputs of IPF (number of dimensions and dimensions themselves)
+>
 > dim7 = typeSeven
 > dim5 = typeFive
 > dim4 = typeFour
@@ -38,6 +40,13 @@
 > graphDimension4 = FS (FS (FS F0))
 > graphDimension2 = FS F0
 > 
+>
+> -- this function is used to run IPF and graph the results, it has to be edited to get different dimensions
+> -- (let dim = [# of dims], 
+> --  let (intData, gen1) = randomData dim [desired bounds] gen0,
+> --  let visualData= map (ivMDBoundDeviations [dimension # you want to display in the graph])
+> -- the "putStrLn(show(42))" is just to signal that the program has finished, which may take very long for large dimensions
+>
 > genDrawIPF :: IO()
 > genDrawIPF = do
 >                gen0 <- getStdGen
